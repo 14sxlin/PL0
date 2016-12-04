@@ -1,0 +1,7 @@
+var a,i;
+
+begin
+  a:= 0;
+  i:= 1;
+  write(a);
+end.

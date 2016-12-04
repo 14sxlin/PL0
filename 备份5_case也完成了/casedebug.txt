@@ -1,0 +1,15 @@
+const a=1,b=2,c=3;
+var i;
+begin
+  i:=2;
+  case i:{
+    a:write(a);
+    b:begin
+		write(b);
+      end;
+	c:begin
+        write(c);
+      end;
+  }endcase;
+end.
+

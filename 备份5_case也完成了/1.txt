@@ -1,0 +1,8 @@
+var m,n;
+    
+begin   
+    m:= 36;
+    n:= 24;
+    write(m);
+end.
+        

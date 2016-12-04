@@ -1,0 +1,15 @@
+var i,sum;
+procedure add;
+  begin
+  
+    for (i:=0;i<100) do
+      begin
+        sum:=sum+i;
+		i:=i+1;
+      end
+  end;
+begin
+	sum:=0;
+	call add;
+	write(sum);
+end.

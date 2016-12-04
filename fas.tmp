@@ -1,0 +1,4 @@
+ 1 const a val=1
+ 2 const b val=2
+ 3 const c val=3
+ 4 var i lev=0 addr=3

@@ -1,0 +1,19 @@
+const a=1,b=6,c=3;
+var i,j,sum;
+begin
+  i:=3;
+  case i:{
+    a:write(a);
+    b:begin
+		for (j:=1;j<b) do
+			begin
+				sum := sum + j;
+				j :=j+1;
+			end;
+        write(sum);
+      end;
+	c:begin
+        write(c);
+      end;
+  }endcase
+end.

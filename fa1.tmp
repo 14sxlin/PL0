@@ -1,0 +1,29 @@
+Input file? casedebug.txt
+0const a=1,b=2,c=3;
+
+1var i;
+
+1begin
+
+2  i:=2;
+
+4  case i:{
+
+4    a:write(a);
+
+12    b:begin
+
+16		write(b);
+
+19      end;
+
+20	c:begin
+
+24        write(c);
+
+27      end;
+
+28  }endcase;
+
+28end.
+
